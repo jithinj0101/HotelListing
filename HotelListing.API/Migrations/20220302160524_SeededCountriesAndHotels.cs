@@ -4,7 +4,7 @@
 
 namespace HotelListing.API.Migrations
 {
-    public partial class SeededHotelandcountries : Migration
+    public partial class SeededCountriesAndHotels : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

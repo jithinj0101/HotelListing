@@ -4,12 +4,11 @@ namespace HotelListing.API.Data
 {
     public class HotelListingDbContext : DbContext
     {
-
-
         public HotelListingDbContext(DbContextOptions options) : base(options)
         {
 
         }
+
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Country> Countries { get; set; }
 
@@ -22,7 +21,7 @@ namespace HotelListing.API.Data
                     Id = 1,
                     Name = "Jamaica",
                     ShortName = "JM"
-                },
+                }, 
                 new Country
                 {
                     Id = 2,
@@ -63,7 +62,6 @@ namespace HotelListing.API.Data
                     Rating = 4
                 }
             );
-
         }
     }
 }

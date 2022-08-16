@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace HotelListing.API.Data
+﻿namespace HotelListing.API.Data
 {
     public class Country
     {
@@ -10,6 +8,5 @@ namespace HotelListing.API.Data
 
 
         public virtual IList<Hotel> Hotels { get; set; }
-    } 
+    }
 }
-
